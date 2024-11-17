@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Case Study Chatbot</title>
+ <style>
+   body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 20px;
+     background-color: #f9f9f9;
+   }
+   #chatbot-container {
+     max-width: 600px;
+     margin: 0 auto;
+     padding: 20px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     background-color: #fff;
+   }
+   #chat-output {
+     height: 300px;
+     overflow-y: auto;
+     padding: 10px;
+     border: 1px solid #ccc;
+     background-color: #f9f9f9;
+     margin-bottom: 20px;
+     border-radius: 5px;
+   }
+   #chat-output div {
+     margin-bottom: 10px;
+   }
+   #user-input {
+     width: calc(100% - 120px);
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+   }
+   #send-button {
+     padding: 10px;
+     width: 100px;
+     margin-left: 10px;
+     background-color: #007BFF;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+   }
+   #send-button:hover {
+     background-color: #0056b3;
+   }
+ </style>
+ <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+ <div id="chatbot-container">
+   <div id="chat-output"></div>
+   <input id="user-input" type="text" placeholder="Type your answer here..." />
+   <button id="send-button">Send</button>
+ </div>
+ <script src="chatbot.js"></script>
+</body>
+</html>
+
+
+
+
+
+
