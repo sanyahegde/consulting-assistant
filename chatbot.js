@@ -191,7 +191,7 @@ const caseStudy = {
    
    
    // OpenAI API Configuration
-   const OPENAI_API_KEY = "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"; // Replace with your OpenAI API Key
+   const OPENAI_API_KEY = //Insert Here
    const OPENAI_API_URL = "https://api.openai.com/v1/chat/completions"; // Use the chat completions endpoint for GPT-4
    
    
