@@ -1,6 +1,6 @@
 #  Case Study Chatbot – AI-Powered Interview Practice
 
-This project is an AI-driven **consulting case interview simulator** designed to **replace the need for a live interviewer**. It guides users through a full consulting-style case using step-by-step prompts, charts, and dynamic GPT-4 feedback — making it ideal for students, candidates, or professionals preparing for consulting interviews **on their own**.
+This project is an AI-driven **consulting case interview simulator** designed to **replace the need for a live interviewer**. It guides users through a full consulting-style case using step-by-step prompts, charts, and feedback — making it ideal for students, candidates, or professionals preparing for consulting interviews **on their own**.
 
 ---
 
